@@ -52,10 +52,7 @@ echo $counter;
 $total = 1 + 2 - 3 * 4 / 5 ** 6;
 echo "<br> {$total}";
 
-echo "<br>";
-
-echo $_POST["username"] . "<br>";
-echo "{$_POST["password"]} <br>";
+echo $_
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +72,7 @@ echo "{$_POST["password"]} <br>";
     <br>
     <br>
 
-    <form action="index.php" method="post">
+    <form action="index.php" method="get">
         <label>username:</label>
         <input type="text" name="username"><br>
         <label>password:</label>

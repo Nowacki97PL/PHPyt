@@ -54,8 +54,8 @@ echo "<br> {$total}";
 
 echo "<br>";
 
-echo $_POST["username"] . "<br>";
-echo "{$_POST["password"]} <br>";
+echo $_GET["username"];
+echo $_GET["username"];
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ echo "{$_POST["password"]} <br>";
     <br>
     <br>
 
-    <form action="index.php" method="post">
+    <form action="index.php" method="get">
         <label>username:</label>
         <input type="text" name="username"><br>
         <label>password:</label>

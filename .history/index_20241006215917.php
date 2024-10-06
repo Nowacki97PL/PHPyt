@@ -54,8 +54,8 @@ echo "<br> {$total}";
 
 echo "<br>";
 
-echo $_POST["username"] . "<br>";
-echo "{$_POST["password"]} <br>";
+echo $_GET["username"] . "<br>";
+echo "{$_GET["password"]} <br>";
 ?>
 
 <!DOCTYPE html>

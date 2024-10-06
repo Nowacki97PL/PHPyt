@@ -19,7 +19,7 @@ echo "You ordered 3 x {$food}s";
 
 $total = $quantity * $price;
 
-echo "<br>Total cost: \${$total}<br>";
+echo "<br>Total cost: \${$total}<br>"; 
 
 $x = 10;
 $y = 2;
@@ -38,7 +38,7 @@ echo "<br>";
 
 $counter = 0;
 
-$counter--;
+$counter --;
 
 echo $counter;
 
@@ -49,13 +49,8 @@ echo $counter;
 +-
  */
 
-$total = 1 + 2 - 3 * 4 / 5 ** 6;
+ $total = 1 + 2 - 3 * 4 / 5 ** 6;
 echo "<br> {$total}";
-
-echo "<br>";
-
-echo $_POST["username"] . "<br>";
-echo "{$_POST["password"]} <br>";
 ?>
 
 <!DOCTYPE html>
@@ -74,14 +69,11 @@ echo "{$_POST["password"]} <br>";
     <button class="btn">Klik!</button>
     <br>
     <br>
-
-    <form action="index.php" method="post">
-        <label>username:</label>
-        <input type="text" name="username"><br>
-        <label>password:</label>
-        <input type="password" name="password"><br>
-        <input type="submit" value="Log in">
-    </form>
+    <label>username:</label>
+    <input type="text" name="username"><br>
+    <label>password:</label>
+    <input type="password" name="password"><br>
+    <input
 </body>
 
 </html>
