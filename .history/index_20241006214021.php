@@ -34,23 +34,9 @@ $z = $x % $y;
 
 echo $z;
 
-echo "<br>";
-
 $counter = 0;
 
-$counter --;
-
-echo $counter;
-
-/*
-()
-**
-* / %
-+-
- */
-
- $total = 1 + 2 - 3 * 4 / 5 ** 6;
-echo "<br> {$total}";
+$
 ?>
 
 <!DOCTYPE html>

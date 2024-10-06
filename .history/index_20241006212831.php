@@ -13,44 +13,9 @@ echo "<br>Hello {$name}";
 echo "<br>You like {$food}";
 echo "<br>You are $age years old";
 
-echo "<br>online status: $online <br>";
+echo "<br>online status: $online";
 
-echo "You ordered 3 x {$food}s";
-
-$total = $quantity * $price;
-
-echo "<br>Total cost: \${$total}<br>"; 
-
-$x = 10;
-$y = 2;
-$z = null;
-
-$z = $x + $y;
-$z = $x * $y;
-$z = $x - $y;
-$z = $x / $y;
-$z = $x ** $y;
-$z = $x % $y;
-
-echo $z;
-
-echo "<br>";
-
-$counter = 0;
-
-$counter --;
-
-echo $counter;
-
-/*
-()
-**
-* / %
-+-
- */
-
- $total = 1 + 2 - 3 * 4 / 5 ** 6;
-echo "<br> {$total}";
+echo "You ordered 3"
 ?>
 
 <!DOCTYPE html>
