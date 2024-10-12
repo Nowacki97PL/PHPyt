@@ -15,8 +15,6 @@
         <br>
         <label>y:</label>
         <input type="text" name="y">
-        <br>
-        <br>
         <input type="submit" value="total">
     </form>
 </body>
@@ -35,10 +33,5 @@
     $total5 = sqrt($x);
     $total6 = pow($x, $y);
 
-    echo "{$total} <br>";
-    echo "{$total2} <br>";
-    echo "{$total3} <br>";
-    echo "{$total4} <br>";
-    echo "{$total5} <br>";
-    echo "{$total6} <br>";
+    echo $total;
 ?>

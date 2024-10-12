@@ -9,14 +9,23 @@
         </head>
 
 <body>
+    <br>
+    <br>
+    <button class="btn">Klik!</button>
+    <br>
+    <br>
+
+    <form action="index.php" method="post">
+        <label>username:</label>
+        <input type="text" name="username"><br>
+        <label>password:</label>
+        <input type="password" name="password"><br>
+        <input type="submit" value="Log in">
+    </form>
+
     <form action="index.php" method="post">
         <label>x:</label>
         <input type="text" name="x">
-        <br>
-        <label>y:</label>
-        <input type="text" name="y">
-        <br>
-        <br>
         <input type="submit" value="total">
     </form>
 </body>
@@ -25,20 +34,7 @@
 
 <?php
     $x = $_POST['x'];
-    $y = $_POST['y'];
     $total = null;
 
-    $total = abs($x);
-    $total2 = round($x);
-    $total3 = floor($x);
-    $total4 = ceil($x);
-    $total5 = sqrt($x);
-    $total6 = pow($x, $y);
-
-    echo "{$total} <br>";
-    echo "{$total2} <br>";
-    echo "{$total3} <br>";
-    echo "{$total4} <br>";
-    echo "{$total5} <br>";
-    echo "{$total6} <br>";
+    
 ?>
