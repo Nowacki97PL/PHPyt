@@ -1,0 +1,3 @@
+<?php
+
+    // Switch - replacement 
